@@ -1,0 +1,124 @@
+#container{
+width: 800px
+margin: 0 auto;
+}
+
+/*Aqui entrara mais informações */
+
+
+/*Organizando a barra_lateral_esqueda */
+
+#barralateral-esq{
+float: left;  /* Alinhado minha  coluna para esquerda*/
+width: 200px; /*Definindo a altura*/
+height: 200px; /*Definindo a largura*/
+border-right: 2px dashed ##00248E;
+
+}
+
+#barralateral-dir{
+
+float:right;
+width: 200px;
+height: 200px;
+border-right: 2px dashed ##00248E;
+
+}
+
+
+.links-barra ul{
+margin:  auto;
+
+}
+
+.links_barra li{
+ margin: 0px 18px 0px 0px;
+ list-style:none;
+ display: inline;
+
+}
+
+.links_barra li a{
+ color: #000000;
+ padding: 5px 12px 7px;
+ text-decoration: none;
+ font-size: 16px;
+ font-family: verdana;
+
+}
+
+.links_barra li a:hover{
+
+   color: #ffffff;	
+   background-image: url(imagens/imagem_fundo.jpg);
+ /*Se quiser usar uma cor de fundo em vez de uma imagem substitua a linha acima por background-color: #XXXXXX;*/
+  text-decoration: underline;
+}
+
+
+#corpo {
+
+margin: auto;
+width: 530px;
+padding: 10px 5px 0px 5px;
+
+}
+
+
+#rodape {
+
+clear: both;
+background-color: #BFE3FE;
+}
+
+
+
+/*Teste  */
+
+
+#container {
+
+width: 850px;
+margin: auto;
+
+}
+
+
+
+
+#rodape {
+
+clear: both;
+background-color: #BFE3FE;
+}
+
+
+
+ul{
+list-style-type: none;
+
+}
+
+
+.caixa  {
+
+margin-top: 10px;
+padding: 5px 5px 5px 5px;
+background-color: #dddddd;
+border: 2px solid #0033CC;
+width: 500px;
+color: #000000;
+
+}
+
+h1{
+font-size: 20px;
+color: #0033CC;
+padding: 10px;
+font-family: verdana;
+}
+
+#footer{
+clear: both;
+background-color: #BFE3FE;
+}
