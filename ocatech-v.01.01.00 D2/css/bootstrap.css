@@ -59,9 +59,10 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
+h3 {
   margin: .67em 0;
   font-size: 2em;
+  color: #3CB371;
 }
 mark {
   color: #000;
@@ -233,6 +234,7 @@ th {
   h3 {
     orphans: 3;
     widows: 3;
+    color: #3CB371;
   }
   h2,
   h3 {
@@ -5703,7 +5705,7 @@ button.list-group-item-danger.active:focus {
 .panel-primary {
   border-color: #337ab7;
 }
-.panel-primary > .panel-heading {
+.panel-success > .panel-heading {
   color: #fff;
   background-color: #337ab7;
   border-color: #337ab7;
