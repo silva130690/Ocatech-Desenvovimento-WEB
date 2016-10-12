@@ -1,0 +1,38 @@
+#imagem{
+background-image: url('../img/canal.png');
+width: 800px; /* Largura da minha imagem*/
+height: 600px; /*altura */
+background-position: absolute; /*Posição */
+margin-left:300px;                     
+
+
+}
+
+p{
+	text-overflow: clip;
+	font-size: 20px;
+	margin-left: 200px;
+    margin-top: 30px;
+     color: #FF0000;	
+}
+
+
+figure { width: 90%; min-width: 17.5em; margin:0 auto;}
+figcaption { font: 120% sans-serif; text-align: center;}
+.boxVideo {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 0;
+    margin:0 auto;
+}
+.boxVideo iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+
+}
+
+
+
