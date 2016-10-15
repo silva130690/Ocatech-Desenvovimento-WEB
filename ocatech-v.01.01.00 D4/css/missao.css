@@ -1,0 +1,33 @@
+#historia{
+margin-top: 50px;
+
+}
+
+
+#historia h1{
+color:#FFFFFF;
+text-align: center;
+background:#A9A9A9;
+font-style:verdana;
+
+}
+
+
+.missao{
+color: #006400;
+
+}
+
+
+
+.media-heading{   /* Class atribuida para formatar o <h4> Adriano</h4>*/
+color:#32CD32;
+
+}
+
+
+
+.sobre_adriano{  /* Class atribuida para formatar o <span> <p> Adriano</p>  </span>*/
+	color:#5F9EA0;
+	font-style: verdana;
+}
