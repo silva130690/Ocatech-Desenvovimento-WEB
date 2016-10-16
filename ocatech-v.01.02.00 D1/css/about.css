@@ -1,0 +1,78 @@
+#historia{
+margin-top: 50px;
+
+}
+
+
+#historia h1{
+color:#00FA9A;
+text-align: center;
+background:#2F4F4F;
+font-style:verdana;
+
+}
+
+
+#adriano{
+border: solid;
+border-color: red;
+margin-left: 30px;
+
+
+}
+
+
+.about{
+color: #008B8B;
+
+}
+
+
+
+.media-heading{   /* Class atribuida para formatar o <h4> Adriano</h4>*/
+color:#2F4F4F;
+
+}
+
+
+
+.sobre_adriano{  /* Class atribuida para formatar o <span> <p> Adriano</p>  </span>*/
+	color:#5F9EA0;
+	font-style: verdana;
+}
+
+
+.thumbnail {
+    padding:0px;
+}
+.panel {
+	position:relative;
+}
+.panel>.panel-heading:after,.panel>.panel-heading:before{
+	position:absolute;
+	top:11px;left:-16px;
+	right:100%;
+	width:0;
+	height:0;
+	display:block;
+	content:" ";
+	border-color:transparent;
+	border-style:solid solid outset;
+	pointer-events:none;
+}
+.panel>.panel-heading:after{
+	border-width:7px;
+	border-right-color:#f7f7f7;
+	margin-top:1px;
+	margin-left:2px;
+}
+.panel>.panel-heading:before{
+	border-right-color:#ddd;
+	border-width:8px;
+}
+
+
+.col-sm-12{ /* Class que mencionei que iria utilizar para formatar o h3 */
+color:#FF4500;
+/*background-color:#2F4F4F; * /
+}
